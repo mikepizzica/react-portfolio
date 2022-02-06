@@ -24,7 +24,7 @@ function Work() {
                     <header>Password Generator</header>
                     </a>
                     <a rel="noreferrer" href="https://mikepizzica.github.io/password-generator/" target="_blank">
-                    <img src="assets\images\password-generator.jpg" alt="password generator" />
+                    <img src={process.env.PUBLIC_URL + '/assets/images/password-generator.jpg'} alt="password generator" />
                     </a>
                 </div>
                 <div class="project">
@@ -32,7 +32,7 @@ function Work() {
                     <header>Weather Dashboard</header>
                     </a>
                     <a rel="noreferrer" href="https://mikepizzica.github.io/weather-dashboard/" target="_blank">
-                    <img src="assets\images\weather-dashboard-small.jpg" alt="weather dashboard" />
+                    <img src={process.env.PUBLIC_URL + '/assets/images/weather-dashboard-small.jpg'} alt="weather dashboard"/>
                     </a>
                 </div>
                 <div class="project">
@@ -40,7 +40,7 @@ function Work() {
                     <header>Note Taker</header>
                     </a>
                     <a rel="noreferrer" href="https://nameless-ravine-92026.herokuapp.com/notes" target="_blank">
-                    <img src="assets\images\note-taker.jpg" alt="note taker" />
+                    <img src={process.env.PUBLIC_URL + '/assets/images/note-taker.jpg'} alt="note taker"/>
                     </a>
                 </div>
                 <div class="project">
@@ -48,7 +48,7 @@ function Work() {
                     <header>Tech Blog</header>
                     </a>
                     <a rel="noreferrer" href="https://tech-blog-mike-pizzica.herokuapp.com/" target="_blank">
-                    <img src="assets\images\tech-blog.jpg" alt="tech blog" />
+                    <img src={process.env.PUBLIC_URL + '/assets/images/tech-blog.jpg'} alt="tech blog" />
                     </a>
                 </div>
             </section>
