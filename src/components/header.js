@@ -1,11 +1,10 @@
 import react from "react";
-import Nav from './nav';
 
 function header() {
     return (
         <header>
         <h1>Mike Pizzica</h1>
-        <img src={process.env.PUBLIC_URL + '/assets/images/MikePizzica1000x1000.jpg'} alt="mike pizzica" />
+        {/* <img src={process.env.PUBLIC_URL + '/assets/images/MikePizzica1000x1000.jpg'} alt="mike pizzica" /> */}
         <nav>
             <li>
                 <a href="#about">About</a>

@@ -6,9 +6,6 @@ import react from "react";
 function Work() {
     return (
         <article id="work">
-            <aside>
-                <p>Work</p>
-            </aside>
             <section>
                 <p id="work-text">Click on the text to view the github page<br/>Click on the image to view the deployed application</p>
                 <div id="main-project">

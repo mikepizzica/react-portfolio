@@ -3,9 +3,6 @@ import react from "react";
 function Contact() {
     return (
         <article id="contact">
-            <aside>
-                <p>Contact</p>
-            </aside>
             <section>
                 <a href="tel:610-513-2967">610-513-2967</a>
                 <a href="mailto:mike.pizzica@gmail.com">mike.pizzica@gmail.com</a>
