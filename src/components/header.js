@@ -10,10 +10,13 @@ function header() {
                 <a href="#about">About</a>
             </li>
             <li>
-                <a href="#work">Work</a>
+                <a href="#work">Portfolio</a>
             </li>
             <li>
                 <a href="#contact">Contact</a>
+            </li>
+            <li>
+                <a href="#contact">Résumé</a>
             </li>
         </nav>
     </header>

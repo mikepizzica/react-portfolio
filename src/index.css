@@ -4,6 +4,30 @@
   margin: 0;
 }
 
+#headshot {
+  width: 200px;
+  border-radius: 50%;
+}
+
+#about-me {
+  padding: 0px 25px;
+}
+
+#about-me h1 {
+  font-size: 48px;
+  color: white;
+}
+
+#about-me img {
+  margin: 25px 0px;
+}
+
+#about-me p {
+  font-size: 24px;
+  color:white
+}
+
+
 /* setting the background color of the page */
 body {
   background-color: #251e1e;
@@ -12,7 +36,7 @@ body {
 /* styling text within <p> tags */
 p {
   font-size: 20px;
-  color:white
+  color: white
 }
 
 /* making images blocks to get rid of gaps */
@@ -28,128 +52,157 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-  /* styling "Mike Pizzica" text */
-  header > h1 {
-      font-size: 64px;
-      background-color: #b84848;
-      padding: 10px 40px;
-  }
-
-  /* styling the header img */
-  header > img {
-      max-height: 250px;
-  }
-
-  /* styling the right header text */
-  header > nav {
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      font-size: 36px;
-      display: flex;
-  }
-
-      /* styling the li so the items are spaced out */
-      header > nav > li {
-          padding:20px;
-          list-style-type: none;
-      }   
-
-          /* syling the text within the li */
-          header > nav > li > a {
-              color: #b84848;
-              text-decoration: none;
-              border-bottom:#b84848 4px solid;
-          }
-
-          header > nav > li > a:hover {
-              color: #beb2b2;
-              text-decoration: none;
-              border-bottom:#beb2b2 4px solid;
-          }
-
-/* setting a consistent 50px padding to the right of all content */
-main {
-  padding-right: 50px;
+/* styling "Mike Pizzica" text */
+header>h1 {
+  font-size: 64px;
+  background-color: #b84848;
+  padding: 10px 40px;
+  margin: 0px 25px;
 }
 
-  /* styling the articles */
-  article {
-      display:flex;
-      margin-bottom: 45px;
-  }
+/* styling the header img */
+header>img {
+  max-height: 250px;
+}
 
-      /* styling the article asides */
-      article > aside {
-          flex: 1;
-          text-align: right;
-          border-right: 5px solid white;
-      }
+/* styling the right header text */
+header>nav {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 36px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
 
-          /* styling text within the article asides */
-          article > aside > p {
-              font-size:48px;
-              padding-right: 15px;
-          }
+/* styling the li so the items are spaced out */
+header>nav>li {
+  padding: 20px;
+  list-style-type: none;
+}
 
-      /* styling the article sections */
-      article > section {
-          flex: 4;
-          padding-left: 25px;
-          flex-wrap: wrap;
-          justify-content: space-evenly;
-          align-items: center;
-          display: flex;
-      }
+/* syling the text within the li */
+header>nav>li>a {
+  color: #b84848;
+  text-decoration: none;
+  border-bottom: #b84848 4px solid;
+}
 
-          #work-text {
-              text-align: center;
-              font-size: 36px;
-          }
-          /* styling the main project */
-          #main-project {
-              border:#b84848 solid 5px;
-              flex: 0 0 100%;
-              margin: 0px 10px 10px 10px;
-              position: relative;
-          }
+header>nav>li>a:hover {
+  color: #beb2b2;
+  text-decoration: none;
+  border-bottom: #beb2b2 4px solid;
+}
 
-          /* styling the main project header */
-          #main-project header {
-              padding: 20px;
-              background-color: #b84848;
-              position: absolute;
-              bottom: 5px;
-              left:-1px
-          }
+/* styling the articles */
+article {
+  display: flex;
+  margin-bottom: 45px;
+}
 
-          /* styling all other projects */
-          .project {
-              border:#b84848 solid 5px;
-              flex: 0 0 49%;
-              margin: 0.5%;
-              position: relative;
-              flex-wrap: wrap;
-          }
-          
-          /* styling all other project headers */
-          .project header {
-              padding: 20px;
-              background-color: #b84848;
-              position: absolute;
-              bottom: 5px;
-              left:-1px;
-          }
+/* styling the article sections */
+article>section {
+  flex: 4;
+  padding-left: 25px;
+  padding-right: 25px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: start;
+  display: flex;
+}
 
-          /* styling the images for projects to display their full widths */
-          article > section > div img {
-              width: 100%;
-          }
+#work-text {
+  text-align: center;
+  font-size: 36px;
+}
 
-          /* styling links in the contact section */
-          #contact a {
-              color: white;
-              text-decoration: none;
-              border-bottom: white 4px solid;
-              font-size: 24px;
-          }
+/* styling the main project */
+#portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.project {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.897);
+}
+
+.project-images {
+  width: 600px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.project-info {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  text-align: center;
+  padding: 0px;
+}
+
+.project:hover .project-images {
+  opacity:0.4;
+}
+
+.project:hover .project-info {
+  opacity:1;
+}
+
+.project-info > a {
+  color: #251e1e;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.project-names:hover {
+  opacity: 0.5;
+}
+
+.github-logos:hover {
+  opacity: 0.5;
+}
+
+.github-logos {
+  width: 50px;
+}
+
+/* styling links in the contact section */
+#contact a {
+  color: white;
+  text-decoration: none;
+  border-bottom: white 4px solid;
+  font-size: 24px;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 125px;
+  margin-bottom: 30px;
+}
+
+#github-logo-white:hover {
+  opacity: 0.5;
+}
+
+#github-logo-white {
+  width: 50px;
+  margin: 0px 15px;
+}
+
+#linkedin-logo-white:hover {
+  opacity: 0.5;
+}
+
+#linkedin-logo-white {
+  width: 50px;
+  margin: 0px 15px;
+}
