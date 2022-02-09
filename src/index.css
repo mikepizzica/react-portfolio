@@ -11,9 +11,9 @@ body {
 
 /* header css */
 header {
-  padding: 20px 0px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #251e13;
+  margin: 25px 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -21,11 +21,11 @@ header {
 }
 
 header>h1 {
+  background-color: #b84848;
+  margin: 0px 25px;
+  padding: 10px 40px;
   font-size: 64px;
   text-align: center;
-  background-color: #b84848;
-  padding: 10px 40px;
-  margin: 0px 25px;
 }
 
 header>nav {
@@ -63,14 +63,14 @@ section {
   justify-content: space-evenly;
 }
 
-/* css for about me section */
-#about-me h1 {
+section > h1 {
   font-size: 48px;
   text-align: center;
   color: white;
   width: 100%;
 }
 
+/* css for about me section */
 #headshot {
   width: 200px;
   border-radius: 50%;
@@ -136,10 +136,48 @@ section {
 }
 
 /* css for contact section */
-#contact a {
+label {
+  display: inline-block;
+  padding-top: 15px;
+  font-size: 24px;
+  color: white;
+}
+
+input {
+  width: 390px;
+}
+
+#submit {
+  width: 100px;
+}
+
+/* css for OLD contact section */
+/* #contact a {
+  margin-top: 25px;
   color: white;
   text-decoration: none;
   border-bottom: white 4px solid;
+  font-size: 24px;
+} */
+
+/* css for resume section */
+#resume {
+  display: block;
+  text-align: center;
+}
+
+#resume > a {
+  color:white;
+  font-size: 24px;
+}
+
+#resume > p {
+  color:white;
+  font-size: 24px;
+}
+
+#resume > li {
+  color: white;
   font-size: 24px;
 }
 
@@ -147,8 +185,7 @@ section {
 #footer {
   display: flex;
   justify-content: center;
-  margin-top: 125px;
-  margin-bottom: 30px;
+  margin: 75px 0px 25px 0px;
 }
 
 #github-logo-white {

@@ -6,6 +6,7 @@ import react from "react";
 function Portfolio() {
     return (
             <section id="portfolio">
+                <h1>Portfolio</h1>
                 <div class="project">
                     <img src={process.env.PUBLIC_URL + '/assets/images/artistify.png'} alt="artistify" class="project-images" />
                     <header class="project-info">
