@@ -93,7 +93,7 @@ section > h1 {
 
 /* css for portfolio section */
 #portfolio {
-  gap: 30px;
+  gap: 25px;
 }
 
 .project {
@@ -147,7 +147,7 @@ section > h1 {
 /* css for contact section */
 label {
   display: inline-block;
-  padding-top: 15px;
+  padding-top: 25px;
   font-size: 24px;
   color: white;
 }
@@ -181,6 +181,10 @@ textarea {
   text-align: center;
 }
 
+#resume > h1 {
+  margin-bottom: 25px;
+}
+
 #resume > a {
   color:white;
   font-size: 24px;
@@ -188,7 +192,10 @@ textarea {
 
 #resume > p {
   color:white;
-  font-size: 24px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: solid;
+  margin-top: 25px;
 }
 
 #resume > li {

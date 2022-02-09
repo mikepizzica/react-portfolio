@@ -4,7 +4,7 @@ function Resume() {
     return (
         <section id="resume">
             <h1>Resume</h1>
-            <a rel="noreferrer" href="https://docs.google.com/document/d/1M-TMOKGjUwbVCfruUq9cRhJBFnJ2jlQV/edit?usp=sharing&ouid=117672538973667414696&rtpof=true&sd=true" target="_blank">View/Download my FULL resume Google Docs</a><p>&nbsp;&nbsp;</p>
+            <a rel="noreferrer" id="resume-link" href="https://docs.google.com/document/d/1M-TMOKGjUwbVCfruUq9cRhJBFnJ2jlQV/edit?usp=sharing&ouid=117672538973667414696&rtpof=true&sd=true" target="_blank">View/Download my FULL resume in Google Docs</a>
             <p>Front-End Proficiences</p>
             <li>HTML</li>
             <li>CSS</li>
