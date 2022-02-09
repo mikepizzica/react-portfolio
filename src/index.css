@@ -4,47 +4,12 @@
   margin: 0;
 }
 
-#headshot {
-  width: 200px;
-  border-radius: 50%;
-}
-
-#about-me {
-  padding: 0px 25px;
-}
-
-#about-me h1 {
-  font-size: 48px;
-  color: white;
-}
-
-#about-me img {
-  margin: 25px 0px;
-}
-
-#about-me p {
-  font-size: 24px;
-  color:white
-}
-
-
 /* setting the background color of the page */
 body {
   background-color: #251e1e;
 }
 
-/* styling text within <p> tags */
-p {
-  font-size: 20px;
-  color: white
-}
-
-/* making images blocks to get rid of gaps */
-img {
-  display: block;
-}
-
-/* styling header at top of page */
+/* header css */
 header {
   padding: 20px 0px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -55,20 +20,14 @@ header {
   flex-wrap: wrap;
 }
 
-/* styling "Mike Pizzica" text */
 header>h1 {
   font-size: 64px;
+  text-align: center;
   background-color: #b84848;
   padding: 10px 40px;
   margin: 0px 25px;
 }
 
-/* styling the header img */
-header>img {
-  max-height: 250px;
-}
-
-/* styling the right header text */
 header>nav {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 36px;
@@ -78,13 +37,11 @@ header>nav {
   justify-content: center;
 }
 
-/* styling the li so the items are spaced out */
 header>nav>li {
   padding: 20px;
   list-style-type: none;
 }
 
-/* syling the text within the li */
 header>nav>li>a {
   color: #b84848;
   text-decoration: none;
@@ -97,33 +54,37 @@ header>nav>li>a:hover {
   border-bottom: #beb2b2 4px solid;
 }
 
-/* styling the articles */
-article {
+/* default styling section containers (about/portfolio/contact/resume) */
+section {
+  padding: 0px 25px;
   display: flex;
-  margin-bottom: 45px;
-}
-
-/* styling the article sections */
-article>section {
-  flex: 4;
-  padding-left: 25px;
-  padding-right: 25px;
   flex-wrap: wrap;
+  justify-content: center;
   justify-content: space-evenly;
-  align-items: start;
-  display: flex;
 }
 
-#work-text {
+/* css for about me section */
+#about-me h1 {
+  font-size: 48px;
   text-align: center;
-  font-size: 36px;
+  color: white;
+  width: 100%;
 }
 
-/* styling the main project */
+#headshot {
+  width: 200px;
+  border-radius: 50%;
+  margin: 25px 0px;
+}
+
+#about-me p {
+  font-size: 24px;
+  color:white;
+  width: 100%;
+}
+
+/* css for portfolio section */
 #portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
   gap: 30px;
 }
 
@@ -138,27 +99,27 @@ article>section {
   backface-visibility: hidden;
 }
 
-.project-info {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  text-align: center;
-  padding: 0px;
-}
-
 .project:hover .project-images {
-  opacity:0.4;
+  opacity:0.3;
 }
 
 .project:hover .project-info {
   opacity:1;
 }
 
-.project-info > a {
+.project-info {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}
+
+.project-names {
   color: #251e1e;
   font-size: 50px;
+  font-weight: bold;
+  -webkit-text-stroke: 1.5px #b84848;
   text-decoration: none;
 }
 
@@ -166,15 +127,15 @@ article>section {
   opacity: 0.5;
 }
 
-.github-logos:hover {
-  opacity: 0.5;
-}
-
 .github-logos {
   width: 50px;
 }
 
-/* styling links in the contact section */
+.github-logos:hover {
+  opacity: 0.5;
+}
+
+/* css for contact section */
 #contact a {
   color: white;
   text-decoration: none;
@@ -182,6 +143,7 @@ article>section {
   font-size: 24px;
 }
 
+/* css for footer */
 #footer {
   display: flex;
   justify-content: center;
@@ -189,20 +151,20 @@ article>section {
   margin-bottom: 30px;
 }
 
-#github-logo-white:hover {
-  opacity: 0.5;
-}
-
 #github-logo-white {
   width: 50px;
   margin: 0px 15px;
 }
 
-#linkedin-logo-white:hover {
+#github-logo-white:hover {
   opacity: 0.5;
 }
 
 #linkedin-logo-white {
   width: 50px;
   margin: 0px 15px;
+}
+
+#linkedin-logo-white:hover {
+  opacity: 0.5;
 }

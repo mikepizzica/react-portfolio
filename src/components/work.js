@@ -5,7 +5,6 @@ import react from "react";
 
 function Work() {
     return (
-        <article id="work">
             <section id="portfolio">
                 <div class="project">
                     <img src={process.env.PUBLIC_URL + '/assets/images/artistify.png'} alt="artistify" class="project-images" />
@@ -28,7 +27,7 @@ function Work() {
                 <div class="project">
                     <img src={process.env.PUBLIC_URL + '/assets/images/weather-dashboard.png'} alt="weather dashboard" class="project-images"/>
                     <header class="project-info">
-                        <a rel="noreferrer" href="https://mikepizzica.github.io/weather-dashboard/" target="_blank" class="project-names">Weather Dashboard</a><p>&nbsp;&nbsp;</p>
+                        <a rel="noreferrer" href="https://mikepizzica.github.io/weather-dashboard/" target="_blank" class="project-names">Weather Info</a><p>&nbsp;&nbsp;</p>
                         <a rel="noreferrer" href="https://github.com/mikepizzica/weather-dashboard" target="_blank">
                         <img src={process.env.PUBLIC_URL + '/assets/images/github-logo.png'} alt="github logo" class="github-logos" />
                         </a>
@@ -53,7 +52,6 @@ function Work() {
                     </header>
                 </div>
             </section>
-        </article>
     );
 }
 
