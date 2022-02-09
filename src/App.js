@@ -15,7 +15,7 @@ function App() {
       <div className="App">
           <Header/>
 
-            <Route exact path="">
+            <Route exact path="/">
               <AboutMe/>
             </Route>
 
