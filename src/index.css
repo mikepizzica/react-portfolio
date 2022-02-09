@@ -232,12 +232,16 @@ textarea {
 @media screen and (max-width: 1100px),
 screen and (-webkit-min-device-pixel-ratio: 3) and (max-width:1920px)  {
 
-  .project-images {
+.project-images {
   width: 100%;
-  transition: .5s ease;
-  backface-visibility: hidden;
 }
 
+.project-names {
+  font-size: 30px;
+}
 
+.github-logos {
+  width: 30px;
+}
 
 }
