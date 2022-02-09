@@ -196,15 +196,20 @@ textarea {
   font-size: 24px;
 }
 
-#resume > p {
-  color:white;
+#proficiencies {
+  max-width: 300px;
+  margin: auto;
+  text-align: left;
+}
+
+#resume > div > p {
+  color:#ffffff;
   font-size: 30px;
   font-weight: bold;
-  text-decoration: solid;
   margin-top: 25px;
 }
 
-#resume > li {
+#resume > div > li {
   color: white;
   font-size: 24px;
 }
