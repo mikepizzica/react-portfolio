@@ -3,7 +3,7 @@ import react from "react";
 // mimic static site to start
 // portfolio might be difficult - subcomponents and props.
 
-function Work() {
+function Portfolio() {
     return (
             <section id="portfolio">
                 <div class="project">
@@ -55,4 +55,4 @@ function Work() {
     );
 }
 
-export default Work;
+export default Portfolio;
