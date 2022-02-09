@@ -37,9 +37,17 @@ header>nav {
   justify-content: center;
 }
 
-header>nav>li {
-  padding: 20px;
-  list-style-type: none;
+.text-link {
+  color: #b84848;
+  text-decoration: none;
+  border-bottom: #b84848 4px solid;
+  margin: 20px;
+}
+
+.text-link:hover {
+  color: #beb2b2;
+  text-decoration: none;
+  border-bottom: #beb2b2 4px solid;
 }
 
 header>nav>li>a {
