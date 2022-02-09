@@ -37,14 +37,20 @@ header>nav {
   justify-content: center;
 }
 
-.text-link {
+.text-NavLink {
   color: #b84848;
   text-decoration: none;
   border-bottom: #b84848 4px solid;
   margin: 20px;
 }
 
-.text-link:hover {
+.text-NavLink:hover {
+  color: #beb2b2;
+  text-decoration: none;
+  border-bottom: #beb2b2 4px solid;
+}
+
+.current {
   color: #beb2b2;
   text-decoration: none;
   border-bottom: #beb2b2 4px solid;

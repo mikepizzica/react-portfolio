@@ -1,5 +1,5 @@
 import react from "react";
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function header() {
     return (
@@ -8,21 +8,21 @@ function header() {
         {/* <img src={process.env.PUBLIC_URL + '/assets/images/MikePizzica1000x1000.jpg'} alt="mike pizzica" /> */}
         <nav>
 
-            <Link to="/react-portfolio" className='text-link'>
+            <NavLink to="/react-portfolio" className='text-NavLink' activeClassName="current" exact>
                 <a>About</a>
-            </Link>
+            </NavLink>
             
-            <Link to ="/react-portfolio/portfolio" className='text-link'>
+            <NavLink to ="/react-portfolio/portfolio" className='text-NavLink' activeClassName="current" exact>
                 <a>Portfolio</a>
-            </Link>
+            </NavLink>
 
-            <Link to ="/react-portfolio/contact" className='text-link'>
+            <NavLink to ="/react-portfolio/contact" className='text-NavLink' activeClassName="current" exact>
                 <a>Contact</a>
-            </Link>
+            </NavLink>
 
-            <Link to ="/react-portfolio/resume" className='text-link'>
+            <NavLink to ="/react-portfolio/resume" className='text-NavLink' activeClassName="current" exact>
                 <a>Resume</a>
-            </Link>
+            </NavLink>
 
         </nav>
     </header>
