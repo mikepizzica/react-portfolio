@@ -15,19 +15,19 @@ function App() {
       <div className="App">
           <Header/>
 
-            <Route exact path="/react-portfolio">
+            <Route exact path="/">
               <AboutMe/>
             </Route>
 
-            <Route exact path="/react-portfolio/portfolio">
+            <Route exact path="/portfolio">
               <Portfolio/>
             </Route>
 
-            <Route exact path="/react-portfolio/contact">
+            <Route exact path="/contact">
               <Contact/>
             </Route>
 
-            <Route exact path="/react-portfolio/resume">
+            <Route exact path="/resume">
               <Resume/>
             </Route>
             
