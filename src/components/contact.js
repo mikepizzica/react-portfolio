@@ -10,7 +10,7 @@ function Contact() {
                 <label for="email">Email Address:</label><br/>
                 <input type="email" id="email" name="email" required="required"></input><br/>
                 <label for="message">Message:</label><br/>
-                <textarea id="message" name="message" rows="10" cols="50" required="required"></textarea><br/>
+                <textarea id="message" name="message" rows="10" cols="100" required="required"></textarea><br/>
                 <input id="submit" type="submit" value="Submit"></input>
             </form>
         </section>
