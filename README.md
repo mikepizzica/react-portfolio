@@ -1,4 +1,4 @@
-# Portfolio
+# React Portfolio
 ## Description
 The purpose of this project was to create a portfolio of work using react to showcase my skills and talents to employers.
 
