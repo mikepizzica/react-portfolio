@@ -115,6 +115,7 @@ section > h1 {
 .project-images {
   width: 100%;
   max-width: 600px;
+  width: 60vw;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -130,14 +131,23 @@ section > h1 {
 .project-info {
   transition: .5s ease;
   opacity: 0;
-  position: absolute;
+  /* position: absolute;
   top: 30px;
-  left: 40px;
+  left: 40px; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  justify-content: center;
+  padding: 0%;
+  margin: 0%;
 }
 
 .project-names {
   color: #251e1e;
-  font-size: 50px;
+  /* font-size: 50px; */
+  font-size: 7vw;
   font-weight: bold;
   -webkit-text-stroke: 1.5px #b84848;
   text-decoration: none;
@@ -148,7 +158,9 @@ section > h1 {
 }
 
 .github-logos {
-  width: 50px;
+  /* width: 50px; */
+  width: 7vw;
+  max-width: 70px;
 }
 
 .github-logos:hover {
@@ -251,20 +263,15 @@ textarea {
   opacity: 0.5;
 }
 
-/* media query for mobile devices */
-@media screen and (max-width: 1100px),
+/* media query necessary for "max-font-size" */
+@media screen and (min-width: 1000px),
 screen and (-webkit-min-device-pixel-ratio: 3) and (max-width:1920px)  {
 
-.project-images {
-  width: 100%;
-}
-
 .project-names {
-  font-size: 30px;
-}
-
-.github-logos {
-  width: 30px;
+  /* original sizing is 7vw = 7% of viewport width. 
+  1000px width of full stie is where image stops growing
+  7%x1000px = 70px  to have consistent text sizes*/
+  font-size: 70px;
 }
 
 }
