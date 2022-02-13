@@ -113,9 +113,7 @@ section > h1 {
 }
 
 .project-images {
-  width: 100%;
   max-width: 600px;
-  width: 60vw;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -147,7 +145,7 @@ section > h1 {
 .project-names {
   color: #251e1e;
   /* font-size: 50px; */
-  font-size: 7vw;
+  font-size: 70px;
   font-weight: bold;
   -webkit-text-stroke: 1.5px #b84848;
   text-decoration: none;
@@ -158,9 +156,7 @@ section > h1 {
 }
 
 .github-logos {
-  /* width: 50px; */
-  width: 7vw;
-  max-width: 70px;
+  width: 70px;
 }
 
 .github-logos:hover {
@@ -271,6 +267,23 @@ textarea {
   1000px width of full stie is where image stops growing
   7%x1000px = 70px  to have consistent text sizes*/
   font-size: 70px;
+}
+
+}
+
+/* media query to make portfolio images take up full width on small screens */
+@media screen and (max-width: 600px) {
+
+.project-images {
+  width: 100%;
+}
+
+.project-names {
+  font-size: 11vw;
+}
+
+.github-logos {
+  width: 11vw;
 }
 
 }
