@@ -264,8 +264,7 @@ textarea {
 }
 
 /* media query necessary for "max-font-size" */
-@media screen and (min-width: 1000px),
-screen and (-webkit-min-device-pixel-ratio: 3) and (max-width:1920px)  {
+@media screen and (min-width: 1000px) {
 
 .project-names {
   /* original sizing is 7vw = 7% of viewport width. 
