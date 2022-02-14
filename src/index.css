@@ -280,8 +280,6 @@ textarea {
 
 .project-names {
   font-size: 11vw;
-  pointer-events: none;
-  cursor: default;
 }
 
 .github-logos {
