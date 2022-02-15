@@ -131,15 +131,6 @@ textarea {
   text-align: center;
 }
 
-/* css for OLD contact section */
-/* #contact a {
-  margin-top: 25px;
-  color: white;
-  text-decoration: none;
-  border-bottom: white 4px solid;
-  font-size: 24px;
-} */
-
 /* css for resume section */
 #resume {
   display: block;
@@ -225,9 +216,6 @@ textarea {
 .project-info {
   transition: .5s ease;
   opacity: 0;
-  /* position: absolute;
-  top: 30px;
-  left: 40px; */
   position: absolute;
   top: 50%;
   left: 50%;

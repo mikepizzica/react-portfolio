@@ -1,10 +1,7 @@
 import react from "react";
-// import artistifyImg from '../images/artistify'
-// mimic static site to start
-// portfolio might be difficult - subcomponents and props.
 
 function Portfolio() {
-    // good code, but failed b/c it seems mobile click makes img hovered before running it, so conditional doesn't work
+    // good code, but failed b/c it seems mobile click on name makes img hovered before running it, so conditional doesn't work
     // const count = 0;
     // const parentDiv = document.getElementsByClassName('project')
     // function shoot(e) {
