@@ -6,7 +6,6 @@ import AboutMe from './components/aboutMe';
 import Header from './components/header';
 import Portfolio from './components/portfolio';
 import Contact from './components/contact';
-import Contact2 from './components/contact2';
 import Footer from './components/footer';
 import Resume from './components/resume';
 
@@ -25,7 +24,7 @@ function App() {
             </Route>
 
             <Route exact path="/contact">
-              <Contact2/>
+              <Contact/>
             </Route>
 
             <Route exact path="/resume">

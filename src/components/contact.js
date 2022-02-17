@@ -1,36 +1,34 @@
-import react from "react";
+import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
+function ContactForm() {
+  const [state, handleSubmit] = useForm("xpzbdzjv");
+  if (state.succeeded) {
+      return <section><p id="submit-confirm">Message Sent!</p></section>;
+  }
+  return (
+    <section id="contact">
+        <h1>Contact</h1>
+        <form onSubmit={handleSubmit}>
+        <label htmlFor="email">Name:</label>
+        <input id="name" type="name" name="name" required="required"/>
+        <ValidationError prefix="Name" field="name"errors={state.errors}/><br/>
 
-function Contact() {
-    return (
-        <section id="contact">
-            <h1>Contact</h1>
-            <form action="mailto:mike.pizzica@gmail.com" method="GET" enctype="text/plain">
+        <label htmlFor="email">Email Address:</label>
+        <input id="email" type="email" name="email" required="required"/>
+        <ValidationError prefix="Email" field="email"errors={state.errors}/><br/>
 
-                <label for="name">Name:</label><br/>
-                <input type="text" id="name" name="name" required="required"></input><br/>
-
-                <label for="email">Email Address:</label><br/>
-                <input type="email" id="mail" name="mail" required="required"></input><br/>
-
-                <label for="message">Message:</label><br/>
-                <textarea id="comment" name="comment" rows="10" cols="100" required="required"></textarea><br/>
-                
-                <input id="submit" type="submit" value="Submit"></input>
-            </form>
-        </section>
-        // OLD contact section
-        // <section id="contact">
-        //     <h1>Contact</h1>
-        //     <a href="tel:610-513-2967">610-513-2967</a>
-        //     <a href="mailto:mike.pizzica@gmail.com">mike.pizzica@gmail.com</a>
-        //     <a href="https://github.com/mikepizzica" target="_blank">GitHub</a>
-        //     <a href="https://www.linkedin.com/in/mikepizzica/" target="_blank">LinkedIn</a>
-        //     <a href="https://docs.google.com/document/d/1M-TMOKGjUwbVCfruUq9cRhJBFnJ2jlQV/edit?usp=sharing&ouid=117672538973667414696&rtpof=true&sd=true" target="_blank">Résumé</a>
-        // </section>
-
-        // mailto link
-        // email service - link to marketing service
-    )
-};
-
-export default Contact;
+        <label for="message">Message:</label><br/>
+        <textarea id="message" name="message" rows="10" cols="100" required="required"/><br/>
+        <ValidationError prefix="Message" field="message" errors={state.errors}/>
+        
+        <button type="submit" disabled={state.submitting}>Submit</button>
+        </form>
+    </section>
+  );
+}
+function Contact2() {
+  return (
+    <ContactForm />
+  );
+}
+export default Contact2;
