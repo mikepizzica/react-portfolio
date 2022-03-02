@@ -1,35 +1,6 @@
 import react from "react";
 
 function Portfolio() {
-    // good code, but failed b/c it seems mobile click on name makes img hovered before running it, so conditional doesn't work
-    // const count = 0;
-    // const parentDiv = document.getElementsByClassName('project')
-    // function shoot(e) {
-    //     if(parentDiv.onClick) {
-    //         console.log(count++)
-    //     }
-    //     alert();
-    //     e.preventDefault();
-    //   }
-
-    // attempt to make first click on links do nothing on mobile
-    // const projectNames = document.getElementsByClassName('project-names')
-    // var clickBtn = false;
-    // function shoot(e) {
-    // if(clickBtn == false){
-    //     e.preventDefault();
-    // }
-    // clickBtn = true;
-    // };
-    // if(clickBtn == true){
-    // }
-
-    // function to count clicks
-    // var count = 0
-    // function shoot(e) {
-    //     count++;
-    //     console.log(count);
-    // }
     return (
             <section id="portfolio">
                 <h1>Portfolio</h1>
