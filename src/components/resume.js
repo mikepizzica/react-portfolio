@@ -19,9 +19,8 @@ function Resume() {
             <li>APIs</li>
             <li>Node</li>
             <li>Express</li>
-            <li>MySQL, Sequelize</li>
-            <li>MongoDB, Mongoose</li>
-            <li>REST</li>
+            <li>MySQL</li>
+            <li>MongoDB</li>
             <li>GraphQL</li>
             </div>
 
