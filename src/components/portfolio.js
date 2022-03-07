@@ -43,7 +43,7 @@ function Portfolio() {
                 <div class="project">
                     <img src={process.env.PUBLIC_URL + '/assets/images/note-taker.png'} alt="note taker" class="project-images"/>
                     <header class="project-info">
-                        <a rel="noreferrer" href="https://nameless-ravine-92026.herokuapp.com/" target="_blank" class="project-names">Note Taker</a><p>&nbsp;&nbsp;</p>
+                        <a rel="noreferrer" href="https://note-taker-mike-pizzica.herokuapp.com/" target="_blank" class="project-names">Note Taker</a><p>&nbsp;&nbsp;</p>
                         <a rel="noreferrer" href="https://github.com/mikepizzica/note-taker" target="_blank">
                         <img src={process.env.PUBLIC_URL + '/assets/images/github-logo.png'} alt="github logo" class="github-logos" />
                         </a>
