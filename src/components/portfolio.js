@@ -7,8 +7,8 @@ function Portfolio() {
                 <div class="project">
                     <img src={process.env.PUBLIC_URL + '/assets/images/card-graphix.png'} alt="card-graphix" class="project-images" />
                     <header class="project-info">
-                        <a rel="noreferrer" href="https://card-graphix.herokuapp.com/" target="_blank" class="project-names">Card-Graphix</a><p>&nbsp;&nbsp;</p>
-                        <a rel="noreferrer" href="https://github.com/wl0194/card-graphix" target="_blank">
+                        <a rel="noreferrer" href="https://card-graphix-mike-pizzica.herokuapp.com/" target="_blank" class="project-names">Card-Graphix</a><p>&nbsp;&nbsp;</p>
+                        <a rel="noreferrer" href="https://github.com/mikepizzica/card-graphix" target="_blank">
                         <img src={process.env.PUBLIC_URL + '/assets/images/github-logo.png'} alt="github logo" class="github-logos" />
                         </a>
                     </header>
