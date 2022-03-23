@@ -1,5 +1,3 @@
-import react from "react";
-
 function aboutMe() {
     return (
         <section id="about-me">

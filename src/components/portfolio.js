@@ -1,5 +1,3 @@
-import react from "react";
-
 function Portfolio() {
     return (
             <section id="portfolio">

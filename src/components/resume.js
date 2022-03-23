@@ -1,5 +1,3 @@
-import react from "react";
-
 function Resume() {
     return (
         <section id="resume">
