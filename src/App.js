@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { HashRouter as Router, Route } from 'react-router-dom';
 
 import AboutMe from './components/aboutMe';
