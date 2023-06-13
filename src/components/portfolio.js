@@ -7,17 +7,8 @@ function Portfolio() {
                 <div class="project">
                     <img src={process.env.PUBLIC_URL + '/assets/images/card-graphix.png'} alt="card-graphix" class="project-images" />
                     <header class="project-info">
-                        <a rel="noreferrer" href="https://card-graphix-mike-pizzica.herokuapp.com/" target="_blank" class="project-names">Card-Graphix</a><p>&nbsp;&nbsp;</p>
-                        <a rel="noreferrer" href="https://github.com/mikepizzica/card-graphix" target="_blank">
-                        <img src={process.env.PUBLIC_URL + '/assets/images/github-logo.png'} alt="github logo" class="github-logos" />
-                        </a>
-                    </header>
-                </div>
-                <div class="project">
-                    <img src={process.env.PUBLIC_URL + '/assets/images/artistify.png'} alt="artistify" class="project-images" />
-                    <header class="project-info">
-                        <a rel="noreferrer" href="https://artistify-project.herokuapp.com/" target="_blank" class="project-names">Artistify</a><p>&nbsp;&nbsp;</p>
-                        <a rel="noreferrer" href="https://github.com/mikepizzica/artistify" target="_blank">
+                        <a rel="noreferrer" href="https://card-graphix.web.app/" target="_blank" class="project-names">Card-Graphix</a><p>&nbsp;&nbsp;</p>
+                        <a rel="noreferrer" href="https://github.com/IsaacJCarnes/card-graphix-firebase" target="_blank">
                         <img src={process.env.PUBLIC_URL + '/assets/images/github-logo.png'} alt="github logo" class="github-logos" />
                         </a>
                     </header>
@@ -36,24 +27,6 @@ function Portfolio() {
                     <header class="project-info">
                         <a rel="noreferrer" href="https://mikepizzica.github.io/weather-dashboard/" target="_blank" class="project-names">Weather Info</a><p>&nbsp;&nbsp;</p>
                         <a rel="noreferrer" href="https://github.com/mikepizzica/weather-dashboard" target="_blank">
-                        <img src={process.env.PUBLIC_URL + '/assets/images/github-logo.png'} alt="github logo" class="github-logos" />
-                        </a>
-                    </header>
-                </div>
-                <div class="project">
-                    <img src={process.env.PUBLIC_URL + '/assets/images/note-taker.png'} alt="note taker" class="project-images"/>
-                    <header class="project-info">
-                        <a rel="noreferrer" href="https://note-taker-mike-pizzica.herokuapp.com/" target="_blank" class="project-names">Note Taker</a><p>&nbsp;&nbsp;</p>
-                        <a rel="noreferrer" href="https://github.com/mikepizzica/note-taker" target="_blank">
-                        <img src={process.env.PUBLIC_URL + '/assets/images/github-logo.png'} alt="github logo" class="github-logos" />
-                        </a>
-                    </header>
-                </div>
-                <div class="project">
-                    <img src={process.env.PUBLIC_URL + '/assets/images/tech-blog.png'} alt="tech blog" class="project-images"/>
-                    <header class="project-info">
-                        <a rel="noreferrer" href="https://tech-blog-mike-pizzica.herokuapp.com/" target="_blank" class="project-names">Tech Blog</a><p>&nbsp;&nbsp;</p>
-                        <a rel="noreferrer" href="https://github.com/mikepizzica/tech-blog" target="_blank">
                         <img src={process.env.PUBLIC_URL + '/assets/images/github-logo.png'} alt="github logo" class="github-logos" />
                         </a>
                     </header>
